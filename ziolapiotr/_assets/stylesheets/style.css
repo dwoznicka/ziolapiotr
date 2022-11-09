@@ -1,0 +1,13 @@
+
+html, body {
+  margin: 0; padding: 0;
+}
+
+@font-face {
+  font-family: Loft Std Mammoth;
+  src: url('/assets/LoftStd-Mammoth.otf') format("opentype");
+}
+
+body {
+  font-family: 'Loft Std Mammoth', sans-serif;
+}

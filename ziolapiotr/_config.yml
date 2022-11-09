@@ -1,0 +1,44 @@
+title: Piotr Zioła
+# name: Oficjalna strona
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # development
+# url: "https://piotrziola.com" # production
+# url: "https://dwoznicka.github.io/ziolapiotr" # github pages
+
+copyright: 2022 © <a href="https://piotrziola.com" class="site-link">Piotr Zioła</a>. Wszelkie prawa zastrzeżone.
+copyright_short: 2022 © <a href="https://piotrziola.com" class="site-link">Piotr Zioła</a>.
+made_by: 'Made with ❤ by <a href="https://www.facebook.com/Daria.Woznicka/" target="_blank">DW</a>'
+# Build settings
+markdown: kramdown
+theme: minima
+incremental: true
+plugins:
+  - jekyll-feed
+  - jekyll-watch
+  - jekyll-assets
+exclude:
+- CNAME
+- .gitignore
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+- .ruby-version
+- Guardfile
+- .jekyll-assets-cache
+- .sass-cache
+- .editorconfig
+- .idea
+- .ruby-version
+- .asset-cache
+- _docs
+
+#
+# Plugin: jekyll-assets
+#

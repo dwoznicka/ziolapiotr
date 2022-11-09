@@ -1,0 +1,254 @@
+
+html, body {
+  margin: 0; padding: 0;
+}
+
+@font-face {
+  font-family: Loft Std Mammoth;
+  src: url('/assets/LoftStd-Mammoth.otf') format("opentype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-image: url("/assets/background.jpg");
+  background-repeat: repeat;
+  background-color: #aa1414;
+  width: 100%;
+  max-width: 100%;
+  color: #000;
+}
+
+.loft {
+  font-family: 'Loft Std Mammoth', sans-serif;
+}
+
+.home-section {
+  align-items: center; 
+}
+
+.home-media {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  color: #000;
+}
+
+footer ul {
+  padding: 0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer li {
+  padding: 0 5vw;
+  font-size: 20px;
+}
+
+.footer-mediaList-link {
+  color: #000;
+  transition: 0.2s all ease-in;
+  opacity: 1;
+}
+
+.footer-mediaList-link:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+  opacity: 0.7;
+  color: #000; 
+}
+
+.home-mediaList {
+  padding: 0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  padding-top:5vh;
+  width: 100%;
+  justify-content: end;
+  list-style: none;
+}
+
+.home-mediaList-item {
+  padding: 0 5vw;
+  font-size: 20px;
+}
+
+.home-mediaList *, .home-mediaList *:active, .home-mediaList *:focus {
+  outline: none; }
+@media (max-width: 767px) {
+  .home-mediaList {
+    font-size: 21px;
+    padding: 0 5vw;
+    display: block; }
+    .home-mediaList-item {
+      font-size: 21px;
+      padding: 0 5vw;
+    }
+    .home-mediaList li {
+      display: block;
+      width: 100%;
+      text-align: center; }
+      .home-mediaList li a, .home-mediaList li button {
+        width: 100% !important;
+        text-align: center;
+        margin: 15px 0;
+        font-weight: bold; } }
+
+.home-mediaList a {
+  display: block;
+  transition: 0.2s all ease-in;
+  opacity: 1;
+  text-align: center;
+  color: #000; }
+  .home-mediaList a:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    opacity: 0.7;
+    color: #000; }
+
+.home-mediaList button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  transition: 0.2s all ease-in;
+  opacity: 1;
+  cursor: pointer;
+  background-color: transparent;
+  text-align: center;
+  padding: 0;
+  color: #000; }
+  .home-mediaList button:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    opacity: 0.7;
+    color: #000; }
+.modal-content {
+  border-radius: 0;
+  background-image: url("/assets/blackbackground.jpg");
+  background-repeat: repeat;
+  background-color: #3e3e3e;
+  color: #fff; }
+
+.modal-header {
+  border-bottom: 1px solid #000; 
+  font-size: 2rem;}
+  .modal-header .close {
+    color: #aa1414;
+    opacity: 0.8; }
+
+.modal-content p {
+  font-size: 1.5rem;
+}
+
+.listen-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 1;
+  transition: 0.2s all ease-in;
+}
+
+.listen-link:hover {
+  text-decoration: none;
+  color: #aa1414;
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.close {
+  text-shadow: none;
+}
+
+.hone-image-section {
+  text-align: center; }
+
+.home-image-container {
+  height: auto;
+  text-align: center;
+  margin: auto;
+  max-width: 98vw; }
+  .home-image-container img {
+    max-width: 100%;
+    height: 85vh;
+    margin: auto 0;
+    -o-object-fit: cover;
+       object-fit: cover; }
+    @media (max-width: 767px) {
+      .home-image-container img {
+        max-width: 100%;
+        height: auto;
+        max-height: 85vh;
+        margin: auto 0;
+        -o-object-fit: contain;
+        object-fit: contain;
+        -o-object-position: top;
+           object-position: top; } }
+
+.home-title {
+  position: fixed;
+  bottom: 10vh;
+  text-align: center;
+  width: 100vw;
+  letter-spacing: 1vw;
+}
+
+.home-tour-title {
+  position: fixed;
+  top: 10vh;
+  text-align: center;
+  width: 100vw;
+  letter-spacing: 1vw;
+  font-size: 1.5rem;
+}
+
+.tour-dates-list {
+  list-style: none;
+  padding: 0;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 25vh;
+ }
+  .tour-dates-list li {
+    text-align: center;
+    margin-top: 10px; }
+    .tour-dates-list li a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 21px;
+      transition: 0.2s all ease-in;
+      color: #000;
+     }
+      @media (max-width: 767px) {
+        .tour-dates-list li a {
+          font-size: 16px;
+          opacity: 1;
+        } }
+      .tour-dates-list li a:hover {
+        text-decoration: none;
+        transform: scale(1.1);
+        opacity: 0.7;
+      }
+  @media (max-width: 767px) {
+    .tour-dates-list {
+      width: 90vw;
+      margin-left: 5vw; } }
+
+.narrow {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
